@@ -1,0 +1,67 @@
+/* 
+  Localizable.strings
+  OxyFryer
+
+  Created by Richa Goyal on 9/17/14.
+  Copyright (c) 2014 Richa Goyal. All rights reserved.
+*/
+"Server_Error" = "The server is not responding, please try later.";
+"Some_Error"  =  "An error has occurred, please try later.";
+"OK"          =     "OK";
+"Product"     =     "Product";
+"Food"        =     "Food";
+"Submit Your Query"  = "Share Your Query";
+"Name"        =     "Name";
+"Email Addres" =  "Email Address";
+"Contact Number" = "Contact Number";
+"Message"     =    "Query";
+"Send"        =    "Send";
+"Feel like yours is better than this? Share it with us" = "Feel like yours is better than this? Share it with us";
+"Upload Your Recipe"  =  "Upload Your Recipe";
+"Tell your friend about this recipe" = "Tell your friend about this recipe";
+"Recipes"     =     "Recipes";
+"How to Use"  =     "How to Use";
+"FAQs"        =     "FAQs";
+"Upload Recipe" =   "Upload Recipe";
+"Preparation Time :" = "Preparation Time :";
+"Please Enter Your Name" = "Please enter your name.";
+"Please Enter Your Email Address" = "Please enter the email address.";
+"Please Enter Message" = "Please enter your message.";
+"Please Enter Valid Email Address" = "Please enter the valid email address.";
+"Please Enter Valid Contact Number" = "Please enter valid contact details.";
+"Your Message Has Been Posted Successfully" = "Your message has been sent to our team.";
+"Steps To Use"     =   "How To Use";
+"Call facility is not available!!!" = "Call facility is not available!!!";
+"OK" = "OK";
+"Upload Your Recipe" = "Upload Your Recipe";
+"Next"             =  "Next";
+"Quantity (Optional)" = "Quantity (Optional)";
+"Cooking Time (in Minutes)" = "Cooking Time (in Minutes)";
+"Category" = "Category";
+"Preparation Time (in Minutes)" = "Preparation Time (in Minutes)";
+"Image" = "Image";
+"Video Youtube URL (Optional)"  = "Video Youtube URL (Optional)";
+"Minimum" = "Minimum";
+"Maximum" = "Maximum";
+"Browse"  = "Browse";
+"Temperature (in Celsius)" = "Temperature (in Celsius)";
+"Done"    =  "Done";
+"Cancel"  =  "Cancel";
+"Ingredients" = "Ingredients";
+"How To Cook" = "How To Cook";
+"Contact Number (Optional)" = "Contact Number (Optional)";
+"Please Enter Dish Name" = "Please Enter Dish Name";
+"Please Enter Minimum Cooking Time" = "Please Enter Minimum Cooking Time";
+"Please Enter Maximum Cooking Time" = "Please Enter Maximum Cooking Time";
+"Please Enter Preparation Time" = "Please Enter Preparation Time";
+"Please Select Category" = "Please Select Category";
+"Please Select Recipe Image" = "Please Select Recipe Image";
+"Please Enter Ingredients"   =  "Please Enter Ingredients";
+"Please Enter Steps To Cook" = "Please Enter Steps To Cook";
+"Please Select Temperature"  =  "Please Enter Temperature";
+"Dish" = "Dish";
+"Cooking Steps" = "Cooking Steps";
+"More" = "More";
+"Please Enter Valid Youtube URL" = "Please Enter Valid Youtube URL";
+"Thank you for submitting your recipe. Your recipe will be going through admin moderation process." = "Thank you for submitting your recipe. Your recipe will be going through admin moderation process.";
+"Minimum Cooking Time should Be Lesser than Maximum Cooking Time" = "Minimum Cooking Time should Be Lesser than Maximum Cooking Time";

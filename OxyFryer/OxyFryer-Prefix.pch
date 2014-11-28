@@ -1,0 +1,52 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+#import "Constant.h"
+#import "AFAPIClient.h"
+#import "ResourceDef.h"
+#import "AppDelegate.h"
+#import "SharedFunction.h"
+#import "UIView+ResignResponder.h"
+#import "UINavigationItem+iOS7Spacing.h"
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+#define HAS_DATA(_x,_y)([_x objectForKey:_y] && ![[_x objectForKey:_y] isEqual:[NSNull null]])
+
+#define screenSize    CGSizeMake([[UIScreen mainScreen] bounds].size.width , [[UIScreen mainScreen] bounds].size.height)
+#define View_Height CGSizeMake([[UIScreen mainScreen] bounds].size.width , [[UIScreen mainScreen] bounds].size.height-64-49)
+#define APP_DELEGATE (AppDelegate*)[[UIApplication sharedApplication] delegate]
+//#ifndef __IPHONE_5_0
+#define screenSizeWithoutNavigation    CGSizeMake([[UIScreen mainScreen] bounds].size.width , [[UIScreen mainScreen] bounds].size.height-64)
+
+#define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
+#define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
+
+#define STATIC_DATA_PLIST [[NSBundle mainBundle] pathForResource:@"StaticData" ofType:@"plist"]
+
+#define GREEN_COLOR [UIColor colorWithRed:93/255.f green:169/255.f blue:58/255.f alpha:1.f]
+#define Dark_Gray_Color [UIColor colorWithRed:88/255.f green:89/255.f blue:91/255.f alpha:1.f]
+#define Gray_Color [UIColor colorWithRed:92/255.f green:92/255.f blue:92/255.f alpha:1.f]
+#define APP_NAME				[[[NSBundle mainBundle] infoDictionary] objectForKey:(NSString*)kCFBundleNameKey]
+#define LocStr(key) [[NSBundle mainBundle]localizedStringForKey:(key) value:@"" table:nil]
+
+#define MyriadPro_Regular @"MyriadPro-Regular"
+#define MyriadPro_Bold    @"MyriadPro-Bold"
+#define MyriadPro_Semibold @"MyriadPro-Semibold"
+#define MyriadPro_Light @"MyriadPro-Light"
+#define Waltograph     @"Waltograph"
+#define NSSTRING_HAS_DATA(_x) (((_x) != nil) && ( [(_x) length] > 0 ))
+#define DOC_DIR [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0]
+

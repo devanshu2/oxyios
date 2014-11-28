@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Categories</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Non-Veg (Snacks &amp; Starters)</string>
+			<key>Type</key>
+			<string>2</string>
+			<key>Cat_Id</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Veg (Snacks &amp; Starters)</string>
+			<key>Type</key>
+			<string>1</string>
+			<key>Cat_Id</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>All</string>
+			<key>Type</key>
+			<string>0</string>
+			<key>Cat_Id</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Veg (Meal)</string>
+			<key>Type</key>
+			<string>1</string>
+			<key>Cat_Id</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Non-Veg (Meal)</string>
+			<key>Type</key>
+			<string>2</string>
+			<key>Cat_Id</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Dessert</string>
+			<key>Type</key>
+			<string>1</string>
+			<key>Cat_Id</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+</dict>
+</plist>
